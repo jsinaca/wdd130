@@ -20,7 +20,7 @@ body {
 }
 h1,h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: red;
 }
 header {
     padding: 20px; 
@@ -35,4 +35,10 @@ nav {
 nav a:hover {
     color: var(--nav-hover-color);
     background-color: var(--nav-hover-bg-color);
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
 }
