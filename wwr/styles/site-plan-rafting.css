@@ -20,17 +20,19 @@ body {
 }
 h1,h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: red;
+    color: var(--primary-color);
 }
 header {
     padding: 20px; 
-    background-color: var(--nav-bg-color);
+    background-color: var(--my-accent-color);
 }
 p {
-    padding: 20px;
+    padding: 25px;
 }
 nav {
     background-color: var(--nav-bg-color);
+    font-size: 1.2rem;
+    display: flex;
 }
 nav a:hover {
     color: var(--nav-hover-color);
@@ -41,4 +43,7 @@ nav a {
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color)
 }
