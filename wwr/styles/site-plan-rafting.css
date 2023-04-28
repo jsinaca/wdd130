@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rock+Salt&display=swap');
+
+:root {
+    --primary-color: #00698B;
+    --secondary-color: #E66912;
+    --my-accent-color: #F2F1E8;
+    --additional-accent-color: #050533;
+    --heading-font: 'Rock Salt', cursive;
+    --paragraph-font: 'Open Sans', sans-serif;
+    --nav-bg-color: #fff;
+    --nav-link-color: #000;
+    --nav-hover-color: #E66912;
+    --nav-hover-bg-color: #fff;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1,h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    padding: 20px; 
+    background-color: var(--nav-bg-color);
+}
+p {
+    padding: 20px;
+}
+nav {
+    
+}
+nav a:hover {
+    color: var(--nav-hover-color);
+    background-color: var(--nav-hover-bg-color);
+}
