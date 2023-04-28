@@ -29,8 +29,10 @@ aside {
     margin: 1em;
     border: 1px solid rgb(0, 0, 0, .5) ;
     padding: 1em;
-    background-color: rgb(54,69,89);
+    background-color: rgb(54,69,89, .7);
     color: whitesmoke;
+    width: 20em;
+    text-align: center;
 }
 aside img {
     width: 200px;
