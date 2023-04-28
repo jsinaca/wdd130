@@ -8,7 +8,7 @@ font-family: 'Rock Salt', cursive; */
     --additional-accent-color: #050533;
     --heading-font: 'Rock Salt', cursive;
     --paragraph-font: 'Open Sans', sans-serif;
-    --nav-bg-color: #fff;
+    --nav-bg-color: #00698B;
     --nav-link-color: #000;
     --nav-hover-color: #E66912;
     --nav-hover-bg-color: #fff;
@@ -30,7 +30,7 @@ p {
     padding: 20px;
 }
 nav {
-
+    background-color: var(--nav-bg-color);
 }
 nav a:hover {
     color: var(--nav-hover-color);
