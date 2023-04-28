@@ -4,27 +4,27 @@ font-family: 'Rock Salt', cursive; */
 :root {
     --primary-color: #00698B;
     --secondary-color: #E66912;
-    --my-accent-color: #F2F1E8;
-    --additional-accent-color: #050533;
+    --accent1-color: #F2F1E8;
+    --accent2-color: #050533;
     --heading-font: 'Rock Salt', cursive;
     --paragraph-font: 'Open Sans', sans-serif;
-    --nav-bg-color: #00698B;
+    --nav-background-color: #00698B;
     --nav-link-color: #000;
-    --nav-hover-color: #E66912;
-    --nav-hover-bg-color: #fff;
+    --nav-hover-link-color: #E66912;
+    --nav-hover-background-color: #fff;
 }
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
-h1,h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 header {
     padding: 20px; 
-    background-color: var(--my-accent-color);
+    background-color: var(--accent1-color);
 }
 p {
     padding: 25px;
@@ -35,8 +35,8 @@ nav {
     display: flex;
 }
 nav a:hover {
-    color: var(--nav-hover-color);
-    background-color: var(--nav-hover-bg-color);
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
 nav a {
     display: block;
