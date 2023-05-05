@@ -22,6 +22,7 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin: 1rem;
 }
 
 p {
@@ -54,8 +55,9 @@ footer {
     margin: 1rem;
     border: 1px;
     padding: 1rem;
-    background-color: grey;
+    background-color: lightgrey;
     color: black;
+    max-width: 30em;
 }
 aside h2 {
     position: absolute;
@@ -64,4 +66,7 @@ aside h2 {
 }
 img {
     float: right;
+}
+main p {
+    text-align: justify;
 }
