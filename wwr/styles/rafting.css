@@ -104,3 +104,6 @@ footer nav {
     display: flex;
     
 }
+footer nav a {
+    text-decoration: none;
+}
