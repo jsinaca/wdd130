@@ -13,11 +13,14 @@ body {
     color: #000000
 }
 header, h1 {
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: .5em;
+    color: rgb(44, 64, 155);
 }
 form {
-    width: 550px;
-    margin: 1rem;
+    width: 500px;
+    margin: 0 auto;
     padding: 1rem;
     border: solid 1px #b5b4b4;
     border-radius: 5px;
@@ -54,16 +57,16 @@ input[type="checkbox"] {
     vertical-align: bottom;
 }
 button {
-    margin: 1rem;
+    margin: 1rem auto;
     padding: 1rem;
     font-size: larger;
     border: none;
-    background-color: #34b7e2;
+    background-color: #0d617c;
     color: #fff;
     border-radius: .5rem;
 }
 button:hover {
-    background-color: #50debd;
+    background-color: #00b58b;
     color: #ffffff;
     cursor: pointer;;
 }
@@ -79,10 +82,12 @@ footer {
 .form-item {
     display: grid;
     align-items: center;
+    grid-template-columns: 3fr 1fr;
+    margin: .5em;
 }
 .column1 {
-    grid-template-columns: 3fr 1fr;
-    margin: .5rem;
+    /* grid-template-columns: 3fr 1fr; */
+    margin: .5rem auto;
 }
 .column2 {
     grid-template-columns: 1fr 2fr;
