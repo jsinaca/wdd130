@@ -28,6 +28,8 @@ label {
 input, select, textarea {
     padding: .25em;
     font-size:medium;
+    margin: .5em 0;
+    
 }
 button {
     margin: .5em 0;
@@ -43,9 +45,16 @@ button:hover {
     cursor: pointer;
 }
 ol {
-    margin: 1.25em;
+    margin: .5em 1.25em;
 }
-li {
-    /* display: grid; */
-
+label {
+    display: grid;
+    margin: .5em 0;
+}
+#declaration {
+    width: 70%;
+    background-color: #333333;
+    color: #fff;
+    padding: .5em 1em;
+    margin: .35em auto;
 }
