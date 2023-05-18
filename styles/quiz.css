@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rock+Salt&display=swap');
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Rock Salt', cursive; */
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  'Open Sans', sans-serif, 'Rock Salt', cursive;
+}
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    color: #1c6b88;
+}
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #d4d4d4;
+    border-radius: .5rem;
+    background-color: #f3f3f3;
+    display: grid;
+}
+label {
+    text-align: left;
+    padding-left: .1rem;
+}
+input, select, textarea {
+    padding: .25em;
+    font-size:medium;
+}
+button {
+    margin: .5em 0;
+    padding: .5em;
+    font-size: medium;
+    border: none;
+    background-color: rgb(50, 50, 144);
+    color: #fff;
+    border-radius: .35em;
+}
+button:hover {
+    background-color: #3dadd6;
+    cursor: pointer;
+}
+ol {
+    margin: 1.25em;
+}
+li {
+    /* display: grid; */
+
+}
