@@ -151,12 +151,12 @@ form, #contact {
 }
 fieldset {
     display: grid;
+    gap: .6em;
     background-color: #f7f7f7;
     border: 1px solid #dfdfdf;
     border-radius: .25em;
     padding: 1rem;
     font-size: large;
-    gap: .6em
 }
 .format-item{
     display: grid;
@@ -183,7 +183,7 @@ button {
     background-color: #3b3b3b;
     color: #dfdfdf;
     border-radius: .25em;
-    justify-content: left;
+    justify-items: left;
 }
 button:hover {
     background-color: var(--primary-color);
