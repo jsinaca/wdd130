@@ -38,7 +38,8 @@ header > img {
     width: 70%;
 }
 p {
-    color: var(--nav-link-color);
+    color: var(--accent1-color);
+    padding: .5em;
     margin: 0;
 }
 header nav {
@@ -267,4 +268,10 @@ button:hover {
 }
 iframe {
     margin: 1em 0;
+}
+.caps {
+    display:none;
+}
+.figcaption:hover .caps {
+    display: block;
 }
