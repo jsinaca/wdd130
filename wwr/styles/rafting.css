@@ -17,6 +17,7 @@ body {
     max-width: 960px;
     font-family: var(--paragraph-font);
     padding: 20px;
+    margin: auto;
 }
 h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
@@ -187,4 +188,10 @@ figure {
 }
 figcaption {
     padding-left: .5em ;
+}
+.caps {
+    display:none;
+}
+.figcaption:hover .caps {
+    display: block;
 }
